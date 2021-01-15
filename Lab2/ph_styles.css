@@ -1,3 +1,9 @@
+@charset "utf-8";
+@font-face{
+   font-family: champagne;
+   src: url(cac_champagne.woff)
+}
+
 /*
    New Perspectives on HTML5 and CSS3, 8th Edition
    Tutorial 2
