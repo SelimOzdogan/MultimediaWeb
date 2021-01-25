@@ -1,7 +1,17 @@
 @charset "utf-8";
-@font-face{
-   font-family: champagne;
-   src: url(cac_champagne.woff)
+@font-face {
+   font-family: Champagne;
+   src: url(cac_champagne.woff) format('woff'), url(cac_champagne.ttf) format('truetype');
+}
+
+@font-face {
+   font-family: 'Grunge';
+   src: url(1942.woff) format('woff'), url(1942.ttf) format('truetype');
+}
+
+@font-face {
+   font-family: Dobkin;
+   src: url(DobkinPlain.woff) format('woff'), url(DobkinPlain.ttf) format('truetype');
 }
 
 /*
@@ -17,21 +27,38 @@
 
 */
 
-
 /* Structural Styles */
 
+html {
+   background-color: hsl(91, 8%, 56%);
+}
 
+body {
+   background-color: hsl(56, 31%, 84%);
+}
 
+header {
+   background-color: black;
+}
 
+p {
+   margin: 0px;
+   padding-top: 5px;
+   padding-right: 25px;
+   padding-left: 25px;
+   padding-bottom: 25px;
+}
+
+body>p {
+   font-size: 1.1em;
+   text-align: center;
+}
+
+address{
+   
+}
 /* Navigation Styles */
-
-
-
 
 /* Section Styles */
 
-
-
-
 /* Description List Styles */
-
