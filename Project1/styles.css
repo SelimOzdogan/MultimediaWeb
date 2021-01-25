@@ -80,7 +80,8 @@ header .profile-image:hover {
   background-color: #efefef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
+  border: 3px solid silver;
   display: table;
   margin: 10px auto;
 } 
